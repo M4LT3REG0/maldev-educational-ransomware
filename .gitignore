@@ -1,3 +1,26 @@
+# Ejecutables y build
+build/
+*.exe
+*.dll
+*.pdb
+*.log
+
+# Claves privadas
+keys/PrivateRsakey.bin
+
+# IDE
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Sistema
+Thumbs.db
+.DS_Store
+
+
 # Prerequisites
 *.d
 
@@ -53,3 +76,4 @@ dkms.conf
 
 # debug information files
 *.dwo
+
